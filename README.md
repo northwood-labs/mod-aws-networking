@@ -21,9 +21,15 @@ Simplifies the process of discovering AWS networking data for Northwood Labs res
 
 * Designed to be highly _composable_, and has no hard-dependencies on other modules.
 
+* Integration tests run automatically on every commit against supported versions of Terraform/OpenTofu.
+
 * Outputs can be easily used with other modules which need network identifiers for VPCs and Subnets.
 
 * Only looks-up data, but does not persist any data itself, making it completely stateless.
+
+* Purpose-built, meaning that it is designed to solve a single orthogonal problem.
+
+* You can’t please everyone all the time, so don’t try. Aims to fit 90% of use-cases. The other 10% can be addressed with alternate or custom solutions.
 
 ## Examples
 
