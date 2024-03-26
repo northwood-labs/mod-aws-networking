@@ -37,6 +37,7 @@ jobs:
           egress-policy: block
           allowed-endpoints: >
             api.github.com:443
+            ghcr.io:443
             github.com:443
             objects.githubusercontent.com:443
 
