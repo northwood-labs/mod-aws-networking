@@ -99,15 +99,15 @@ resource "aws_lambda_function" "test_lambda" {
 | Kind | Source | Name | Provider |
 |------|--------|------|----------|
 | data source | [`data.aws_caller_identity`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/caller_identity) | `current` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
-| data source | [`data.aws_internet_gateway`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/internet_gateway) | `default` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
-| data source | [`data.aws_network_acls`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/network_acls) | `default` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
+| data source | [`data.aws_internet_gateway`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/internet_gateway) | `igw` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
+| data source | [`data.aws_network_acls`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/network_acls) | `nacl` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
 | data source | [`data.aws_region`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/region) | `current` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
 | data source | [`data.aws_route_table`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/route_table) | `route_table` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
 | data source | [`data.aws_subnet`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/subnet) | `subnet_int_a` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
 | data source | [`data.aws_subnet`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/subnet) | `subnet_int_b` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
 | data source | [`data.aws_subnet`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/subnet) | `subnet_int_c` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
 | data source | [`data.aws_subnets`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/subnets) | `subnets` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
-| data source | [`data.aws_vpc`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/vpc) | `default` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
+| data source | [`data.aws_vpc`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/vpc) | `vpc` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
 <!-- END_TF_DOCS -->
 
 ## Testing

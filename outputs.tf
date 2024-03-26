@@ -1,21 +1,21 @@
 output "vpc" {
   description = "An object containing all VPC data."
-  value       = data.aws_vpc.default
+  value       = data.aws_vpc.vpc
 }
 
 output "vpc_arn" {
   description = "The ARN of the VPC in this account."
-  value       = data.aws_vpc.default.arn
+  value       = data.aws_vpc.vpc.arn
 }
 
 output "vpc_cidr" {
   description = "The CIDR of the VPC in this account."
-  value       = data.aws_vpc.default.cidr_block
+  value       = data.aws_vpc.vpc.cidr_block
 }
 
 output "vpc_id" {
   description = "The ID of the VPC in this account."
-  value       = data.aws_vpc.default.id
+  value       = data.aws_vpc.vpc.id
 }
 
 #-------------------------------------------------------------------------------
@@ -142,27 +142,27 @@ output "route_table_id" {
 
 output "internet_gateway" {
   description = "An object containing all data for this internet gateway."
-  value       = data.aws_internet_gateway.default
+  value       = data.aws_internet_gateway.igw
 }
 
 output "internet_gateway_arn" {
   description = "The ARN of this internet gateway."
-  value       = data.aws_internet_gateway.default.arn
+  value       = data.aws_internet_gateway.igw.arn
 }
 
 output "internet_gateway_id" {
   description = "The ID of this internet gateway."
-  value       = data.aws_internet_gateway.default.id
+  value       = data.aws_internet_gateway.igw.id
 }
 
 #-------------------------------------------------------------------------------
 
 output "nacl" {
   description = "An object containing all data for this Network Access Control List (NACL)."
-  value       = data.aws_network_acls.default
+  value       = data.aws_network_acls.nacl
 }
 
 output "nacl_ids" {
   description = "List of all Network Access Control List (NACL) IDs in the VPC."
-  value       = data.aws_network_acls.default.ids
+  value       = data.aws_network_acls.nacl.ids
 }
