@@ -22,7 +22,10 @@ max_line_length = 20000
 indent_size = 2
 
 # Configuration formats
-[*.{hcl,json,jsonc,toml,yaml,yml}, .ecrc]
+[*.{hcl,json,jsonc,toml,yaml,yml}]
+indent_size = 2
+
+[.ecrc]
 indent_size = 2
 
 [*.go]

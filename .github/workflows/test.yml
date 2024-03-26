@@ -48,6 +48,7 @@ jobs:
           allowed-endpoints: >
             api.github.com:443
             checkpoint-api.hashicorp.com:443
+            ec2.us-east-2.amazonaws.com:443
             get.opentofu.org:443
             github.com:443
             golang.org:443
@@ -103,6 +104,7 @@ jobs:
           allowed-endpoints: >
             api.github.com:443
             checkpoint-api.hashicorp.com:443
+            ec2.us-east-2.amazonaws.com:443
             get.opentofu.org:443
             github.com:443
             golang.org:443
