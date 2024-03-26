@@ -9,7 +9,7 @@
 
     // Add strings to this array for words that should be spelled a particular way.
     "names": [
-      "Northwood Labs",
+      "Northwood Labs"
     ]
   }
 }
