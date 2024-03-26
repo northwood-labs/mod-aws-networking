@@ -39,13 +39,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      # - name: Generate Changelog
-      #   uses: orhun/git-cliff-action@8b17108aad4d9362649a5dae020746c2a767c90d # v3.0.2
-      #   with:
-      #     config: cliff.toml
-      #     args: --verbose
-      #   env:
-      #     OUTPUT: CHANGELOG.md
+      - name: Generate Changelog
+        uses: orhun/git-cliff-action@8b17108aad4d9362649a5dae020746c2a767c90d # v3.0.2
+        with:
+          config: cliff.toml
+          args: --verbose
+        env:
+          OUTPUT: CHANGELOG.md
 
       - name: Generate artifacts
         run: |
