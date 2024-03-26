@@ -27,13 +27,18 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          egress-policy: audit
+
       - name: Checkout Source
         uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v4.1.2
         with:
           ref: main
 
       - name: Render terraform docs and push changes back to PR
-        uses: terraform-docs/gh-actions@v1
+        uses: terraform-docs/gh-actions@7a62208a0090636af2df1b739da46d27fd90bdc6 # v1.1.0
         with:
           git-commit-message: "docs: Generate documentation in README.md"
           git-push-sign-off: "true"
