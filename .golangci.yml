@@ -1,0 +1,596 @@
+---
+# https://github.com/golangci/golangci-lint/blob/master/.golangci.reference.yml
+# https://golangci-lint.run/jsonschema/golangci.jsonschema.json
+
+run:
+  skip-files:
+    # - .*\.my\.go$
+    # - lib/bad.go
+
+  # goplicate-start:run
+  timeout: 1m
+  issues-exit-code: 1
+  tests: true
+  skip-dirs-use-default: true
+  modules-download-mode: readonly
+  allow-parallel-runners: false
+  # goplicate-end:run
+
+# goplicate-start:severity
+severity:
+  case-sensitive: false
+# goplicate-end:severity
+
+# goplicate-start:linters
+linters:
+  disable-all: true
+  enable:
+    - decorder
+    - dogsled
+    - dupl
+    - dupword
+    - errcheck
+    - errchkjson
+    - errorlint
+    - exhaustive
+    - funlen
+    - gocognit
+    - goconst
+    - gocritic
+    - godox
+    - gofmt
+    - goimports
+    - gomnd
+    - gosec
+    - gosimple
+    - govet
+    - importas
+    - interfacebloat
+    - lll
+    - maintidx
+    - makezero
+    - misspell
+    - nakedret
+    - nestif
+    - nilnil
+    - nlreturn
+    - nonamedreturns
+    - paralleltest
+    # - revive: @TODO: Review and enable
+    - sloglint
+    - staticcheck
+    - stylecheck
+    - tagalign
+    - tagliatelle
+    - thelper
+    - unparam
+    - unused
+    - usestdlibvars
+    - whitespace
+    - wrapcheck
+    - wsl
+# goplicate-end:linters
+
+# goplicate-start:output
+output:
+  formats:
+    - path: stdout
+      format: colored-line-number
+  print-issued-lines: true
+  print-linter-name: true
+  uniq-by-line: true
+  path-prefix: ''
+  sort-results: true
+# goplicate-end:output
+
+# goplicate-start:linters-settings
+linters-settings:
+  decorder:
+    disable-dec-order-check: false
+    disable-init-func-first-check: false
+    disable-dec-num-check: false
+    dec-order:
+      - const
+      - var
+      - type
+      - func
+
+  dogsled:
+    max-blank-identifiers: 2
+
+  dupl:
+    threshold: 100
+
+  dupword:
+    keywords:
+      - a
+      - an
+      - and
+      - of
+      - or
+      - the
+      - this
+
+  errcheck:
+    check-type-assertions: true
+    check-blank: false
+
+  errchkjson:
+    check-error-free-encoding: false
+    report-no-exported: false
+
+  errorlint:
+    errorf: true
+    asserts: true
+    comparison: true
+
+  exhaustive:
+    check-generated: true
+    default-signifies-exhaustive: true
+    package-scope-only: false
+    explicit-exhaustive-switch: false
+    explicit-exhaustive-map: false
+    check:
+      - switch
+      - map
+
+  exhaustruct:
+
+  funlen:
+    lines: -1
+    statements: -1
+    ignore-comments: true
+
+  gocognit:
+    min-complexity: 20
+
+  goconst:
+    min-len: 80
+    min-occurrences: 3
+    ignore-tests: false
+    match-constant: true
+    numbers: false
+    ignore-calls: true
+
+  gocritic:
+    enabled-tags:
+      - diagnostic
+      - experimental
+      - opinionated
+      - performance
+      - style
+
+    disabled-tags: []
+
+    settings:
+      captLocal:
+        paramsOnly: true
+      elseif:
+        skipBalanced: true
+      hugeParam:
+        sizeThreshold: 80
+      nestingReduce:
+        bodyWidth: 5
+      rangeExprCopy:
+        sizeThreshold: 512
+        skipTestFuncs: true
+      rangeValCopy:
+        sizeThreshold: 128
+        skipTestFuncs: true
+      ruleguard:
+      tooManyResultsChecker:
+        maxResults: 20
+      truncateCmp:
+        skipArchDependent: true
+      underef:
+        skipRecvDeref: true
+      unnamedResult:
+        checkExported: false
+
+  godox:
+    keywords:
+      - BUG
+      - FIXME
+      - HACK
+      - NOTE
+      - OPTIMIZE
+      - TODO
+      - '@TODO'
+
+  gofmt:
+    simplify: true
+    rewrite-rules:
+      - pattern: interface{}
+        replacement: any
+      - pattern: a[b:len(a)]
+        replacement: a[b:]
+
+  goimports:
+
+  gomnd:
+    checks:
+      - argument
+      - case
+      - condition
+      - operation
+      - return
+      - assign
+
+    ignored-numbers:
+      - '0666'
+      - '0755'
+
+  gosimple:
+    checks: ['*']
+
+  gosec:
+    exclude-generated: true
+    severity: low
+    confidence: medium
+    config:
+      global:
+        nosec: false
+        show-ignored: false
+        audit: true
+      G101:
+        ignore_entropy: false
+        entropy_threshold: '80.0'
+        per_char_threshold: '3.0'
+        truncate: '16'
+      G104:
+        fmt:
+          - Fscanf
+      G111:
+        pattern: custom\.Dir\(\)
+      G301: '0750'
+      G302: '0600'
+      G306: '0666'
+
+  govet:
+    enable:
+      - appends
+      - asmdecl
+      - assign
+      - atomic
+      - atomicalign
+      - bools
+      - buildtag
+      - cgocall
+      - composites
+      - copylocks
+      - deepequalerrors
+      - defers
+      - directive
+      - errorsas
+      - fieldalignment
+      - findcall
+      - framepointer
+      - httpresponse
+      - ifaceassert
+      - loopclosure
+      - lostcancel
+      - nilfunc
+      - nilness
+      - printf
+      - reflectvaluecompare
+      - shadow
+      - shift
+      - sigchanyzer
+      - slog
+      - sortslice
+      - stdmethods
+      - stringintconv
+      - structtag
+      - testinggoroutine
+      - tests
+      - unmarshal
+      - unreachable
+      - unsafeptr
+      - unusedresult
+      - unusedwrite
+
+    settings:
+      asmdecl: {}
+      assign: {}
+      atomic: {}
+      bools: {}
+      buildtag: {}
+      composites:
+        whitelist: true
+      copylocks: {}
+      loopclosure: {}
+      lostcancel: {}
+      nilfunc: {}
+      printf:
+        funcs: true
+      shift: {}
+      stdmethods: {}
+      structtag: {}
+      unmarshal: {}
+      unreachable: {}
+      unsafeptr: {}
+      unusedresult:
+        funcs: true
+        stringmethods: true
+
+  importas:
+    no-unaliased: true
+    no-extra-aliases: false
+
+  interfacebloat:
+    max: 10
+
+  lll:
+    line-length: 120
+    tab-width: 1
+
+  maintidx:
+    under: 20
+
+  makezero:
+    always: false
+
+  misspell:
+    locale: US
+
+  nakedret:
+    max-func-lines: 30
+
+  nestif:
+    min-complexity: 10
+
+  nilnil:
+    checked-types:
+      - ptr
+      - func
+      - iface
+      - map
+      - chan
+
+  nlreturn:
+    block-size: 2
+
+  nonamedreturns:
+    report-error-in-defer: false
+
+  paralleltest:
+    ignore-missing: true
+    ignore-missing-subtests: true
+
+  # revive: @TODO: Review and enable.
+
+  sloglint:
+    kv-only: true
+    attr-only: false
+    no-raw-keys: true
+    args-on-sep-lines: false
+
+  staticcheck:
+    checks: ['*']
+
+  stylecheck:
+    checks: ['*']
+
+  tagalign:
+    align: true
+    sort: true
+    strict: true
+
+  tagliatelle:
+    case:
+      use-field-name: false
+      rules:
+        avro: snake
+        bson: camel
+        env: upperSnake
+        envconfig: upperSnake
+        ini: snake
+        json: camel
+        mapstructure: kebab
+        toml: snake
+        xml: camel
+        yaml: camel
+
+  thelper:
+    test:
+      first: true
+      name: true
+      begin: true
+
+    benchmark:
+      first: true
+      name: true
+      begin: true
+
+    tb:
+      first: true
+      name: true
+      begin: true
+
+    fuzz:
+      first: true
+      name: true
+      begin: true
+
+  usestdlibvars:
+    http-method: true
+    http-status-code: true
+    time-weekday: true
+    time-month: false
+    time-layout: false
+    crypto-hash: false
+    default-rpc-path: false
+    sql-isolation-level: false
+    tls-signature-scheme: false
+    constant-kind: false
+
+  unparam:
+    check-exported: false
+
+  unused:
+    field-writes-are-uses: true
+    post-statements-are-reads: false
+    exported-is-used: true
+    exported-fields-are-used: true
+    parameters-are-used: true
+    local-variables-are-used: true
+    generated-is-used: true
+
+  whitespace:
+    multi-if: false
+    multi-func: false
+
+  wrapcheck:
+    ignoreSigs:
+      - .Errorf(
+      - errors.New(
+      - errors.Unwrap(
+      - .Wrap(
+      - .Wrapf(
+      - .WithMessage(
+      - .WithMessagef(
+      - .WithStack(
+
+  wsl:
+    allow-assign-and-anything: false
+    allow-assign-and-call: true
+    allow-cuddle-declarations: false
+    allow-cuddle-with-calls: [Lock, RLock]
+    allow-cuddle-with-rhs: [Unlock, RUnlock]
+    allow-multiline-assign: true
+    allow-separated-leading-comment: true
+    allow-trailing-comment: false
+    error-variable-names: [err]
+    force-case-trailing-whitespace: 0
+    force-err-cuddling: false
+    force-short-decl-cuddling: false
+    strict-append: true
+# goplicate-end:linters-settings
+
+# goplicate-start:issues
+issues:
+  exclude-case-sensitive: false
+  exclude-use-default: false
+  fix: false
+  max-issues-per-linter: 0
+  max-same-issues: 0
+  new: false
+
+  exclude-rules:
+    - linters:
+        - lll
+      source: lint:ignore_length
+
+    - linters:
+        - gosec
+      source: lint:allow_666
+
+    - linters:
+        - gosec
+      source: lint:allow_possible_insecure
+
+    - linters:
+        - unparam
+      source: lint:allow_param
+
+    - linters:
+        - gomnd
+      source: lint:allow_raw_number
+
+    - text: 'commentedOutCode: may want to remove commented-out code'
+      linters:
+        - gocritic
+      source: lint:allow_commented
+
+    - linters:
+        - nestif
+      source: lint:allow_nesting
+
+    - linters:
+        - dupl
+      source: lint:no_dupe
+
+    - linters:
+        - goerr113
+      source: lint:allow_errorf
+
+    - linters:
+        - wrapcheck
+      source: lint:allow_unwrapped_errors
+
+    - text: (SA1019|G402)
+      linters:
+        - staticcheck
+        - gosec
+      source: lint:allow_tls_min_version
+
+    - text: (returns interface)
+      linters:
+        - ireturn
+      source: lint:allow_return_interface
+
+    - text: (G101)
+      linters:
+        - gosec
+      source: lint:not_a_secret
+
+    - text: (G104)
+      linters:
+        - gosec
+      source: lint:allow_unhandled
+
+    - text: (G404)
+      linters:
+        - gosec
+      source: lint:not_crypto
+
+    - text: (error-strings)
+      linters:
+        - revive
+      source: lint:allow_human_errors
+
+    - text: (hugeParam)
+      linters:
+        - gocritic
+      source: lint:allow_large_memory
+
+    - linters:
+        - tagliatelle
+        - gofumpt
+      source: lint:allow_format
+
+    - text: (is unused)
+      linters:
+        - unused
+      source: lint:allow_unused
+
+    - text: (is a program, not an importable package)
+      linters:
+        - typecheck
+      source: lint:allow_importable_program
+
+    - text: (don't use `init` function)
+      linters:
+        - gochecknoinits
+      source: lint:allow_init
+
+    - text: (cuddle)
+      linters:
+        - wsl
+      source: lint:allow_cuddle
+
+    - text: (ST1000)
+      linters:
+        - stylecheck
+      source: lint:allow_no_pkg_comment
+
+    - text: (cognitive complexity)
+      linters:
+        - gocognit
+      source: lint:allow_complexity
+
+    - text: (make it a constant)
+      linters:
+        - goconst
+      source: lint:no_const
+# goplicate-end:issues
