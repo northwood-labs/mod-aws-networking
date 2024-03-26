@@ -1,0 +1,31 @@
+---
+# This workflow uses actions that are not certified by GitHub. They are provided
+# by a third-party and are governed by separate terms of service, privacy
+# policy, and support documentation.
+
+name: OSV Scanner
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions: read-all
+
+jobs:
+  osv-scan:
+    uses: google/osv-scanner/.github/workflows/osv-scanner-reusable.yml@v1.7.1
+    permissions:
+      contents: read
+      security-events: write
+    with:
+      upload-sarif: true
+      fail-on-vuln: true
+      scan-args: --recursive --skip-git ./

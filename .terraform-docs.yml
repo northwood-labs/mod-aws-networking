@@ -1,0 +1,80 @@
+formatter: "markdown table" # this is required
+
+sections:
+  hide: []
+  show:
+    - inputs
+    - modules
+    - outputs
+    - requirements
+    - resources
+
+content: |-
+  ## Requirements
+
+  | Name | Provider | Version |
+  |------|----------|---------|
+  {{- $reqs := .Module.Requirements -}}
+  {{- $ress := .Module.Resources -}}
+  {{- range $reqs -}}
+  {{- $req := . -}}
+  {{- range $ress -}}
+  {{- $res := . -}}
+  {{- if eq $req.Name $res.ProviderName }}
+  | `{{ $req.Name }}` | [{{ $res.ProviderSource }}](https://registry.terraform.io/providers/{{ $res.ProviderSource }}/latest/docs) | `{{ $req.Version }}` |
+  {{- break -}}
+  {{- else }}
+  | `{{ $req.Name }}` | | `{{ $req.Version }}` |
+  {{- break -}}
+  {{- end }}
+  {{- end -}}
+  {{- end }}
+
+  ## Inputs
+
+  | Req | Variable | Type | Description | Default |
+  |:---:|----------|------|-------------|---------|
+  {{- range .Module.Inputs }}
+  | {{ if eq .Required true }}:white_check_mark:{{ else }}{{ end }} | `{{ .Name }}` | [`{{ .Type }}`](https://opentofu.org/docs/language/expressions/types/) | {{ .Description }} | {{ if .HasDefault }}`{{ .GetValue }}`{{ end }} |
+  {{- end }}
+
+  ## Outputs
+
+  | Name | Description |
+  |------|-------------|
+  {{- range .Module.Outputs }}
+  | `{{ .Name }}` | {{ if eq .Sensitive true }}<span title="This is a sensitive value.">:eye_speech_bubble:</span> {{ end }}{{ .Description }} |
+  {{- end }}
+
+  ## Resources
+
+  | Kind | Source | Name | Provider |
+  |------|--------|------|----------|
+  {{- range .Module.Resources }}
+  | {{ .GetMode }} | [`{{ if eq .Mode "data" }}{{ .Mode }}.{{ end }}{{ .ProviderName }}_{{ .Type }}`]({{ .URL }}) | `{{ .Name }}` | [{{ .ProviderSource }}](https://registry.terraform.io/providers/{{ .ProviderSource }}/latest/docs) |
+  {{- end }}
+
+output:
+  file: "README.md"
+  mode: inject
+  template: |-
+    <!-- BEGIN_TF_DOCS -->
+    {{ .Content }}
+    <!-- END_TF_DOCS -->
+
+sort:
+  enabled: true
+  by: required
+
+settings:
+  anchor: false
+  default: true
+  escape: false
+  hide-empty: false
+  html: false
+  indent: 2
+  lockfile: false
+  read-comments: false
+  required: true
+  sensitive: true
+  type: true
