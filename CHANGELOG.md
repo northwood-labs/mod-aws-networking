@@ -11,9 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`5b06ed4`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/5b06ed48418bc103e2d968f84a3b74142e5930a2): Generate documentation in `README.md` ([@github-actions](https://github.com/github-actions))
 * [`5ef20f9`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/5ef20f96f363e3cc07419fe0e696c3eeb09929a4): Updated the 'sales pitch' in the `README.md`. ([@skyzyx](https://github.com/skyzyx))
 * [`7021bb1`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/7021bb173db4e28439754175c4498806f20aa321): Generate documentation in `README.md` ([@github-actions](https://github.com/github-actions))
-* [`a7a0295`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a7a0295a3cf06759aafc4f756ab963fde0535af9): Enable generation of CHANGELOG. ([@skyzyx](https://github.com/skyzyx))
-* [`7cea255`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/7cea2559d089c74602b72d378abb85b0a40bbff2): Generate the initial CHANGELOG. ([@skyzyx](https://github.com/skyzyx))
-* [`4d61dde`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4d61dde5f5d14d2169a1711d4c2fcca64bbd5368): Generate the initial CHANGELOG. ([@skyzyx](https://github.com/skyzyx))
+* [`7c72b2e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/7c72b2e13798292184563e49c2927af3e059a236): Generate the initial CHANGELOG. ([@skyzyx](https://github.com/skyzyx))
 
 ### :dependabot: Building and Dependencies
 
@@ -45,4 +43,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 
 * [`a2f5a7c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a2f5a7cf10ab6c684ea640baa8d27b457373e760): Harden GitHub Actions ([#2](https://github.com/northwood-labs/mod-aws-networking/issues/2)) ([@step-security-bot](https://github.com/step-security-bot))
 
-<p>Generated on 2024-03-26.</p>
+<p>Generated on 2024-03-27.</p>
