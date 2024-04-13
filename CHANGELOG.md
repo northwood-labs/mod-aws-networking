@@ -17,6 +17,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 
 * [`efaa652`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/efaa6521a47980f216d9af91a2969878a1d51b57): Bump `actions/dependency-review-action` from 4.2.4 to 4.2.5 ([#1](https://github.com/northwood-labs/mod-aws-networking/issues/1)) ([@dependabot](https://github.com/dependabot))
 * [`842753f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/842753fb49864999bb1d13283ff2653b1128bd6c): **deps**: Bump `trufflesecurity/trufflehog` from 3.71.0 to 3.73.0 ([#8](https://github.com/northwood-labs/mod-aws-networking/issues/8)) ([@dependabot](https://github.com/dependabot))
+* [`ddffa09`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ddffa09b31abd2bfff52afdf3828055311f25eb8): **deps**: Bump `aquasecurity/trivy-action` from 0.18.0 to 0.19.0 ([#4](https://github.com/northwood-labs/mod-aws-networking/issues/4)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
