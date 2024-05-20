@@ -22,6 +22,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`ef2ef6e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ef2ef6ec0f579ca7ef3582b611dd9a128d4d871f): **deps**: Bump `actions/checkout` from 4.1.2 to 4.1.6 ([#27](https://github.com/northwood-labs/mod-aws-networking/issues/27)) ([@dependabot](https://github.com/dependabot))
 * [`bb2fad0`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bb2fad0838b45acf1490c0c7085df8aba6438c7b): **deps**: Bump `github/codeql-action` from 3.24.10 to 3.25.5 ([#26](https://github.com/northwood-labs/mod-aws-networking/issues/26)) ([@dependabot](https://github.com/dependabot))
 * [`2d4e44d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2d4e44d10727b0fcdc07dc51cfbb7c55a81cc9ee): **deps**: Bump `google/osv-scanner` from 1.7.1 to 1.7.3 ([#24](https://github.com/northwood-labs/mod-aws-networking/issues/24)) ([@dependabot](https://github.com/dependabot))
+* [`322fd29`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/322fd29990140e5734cd5201a03a5cd83d8d72cc): **deps**: Bump `the` go_modules group with 2 updates ([#21](https://github.com/northwood-labs/mod-aws-networking/issues/21)) ([@dependabot](https://github.com/dependabot))
+* [`60fb1fe`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/60fb1fe262ebf4eec508b1e399f2dbda53a9d270): **deps**: Bump `github.com/gruntwork-io/terratest` ([#18](https://github.com/northwood-labs/mod-aws-networking/issues/18)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
