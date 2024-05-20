@@ -20,6 +20,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`ddffa09`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ddffa09b31abd2bfff52afdf3828055311f25eb8): **deps**: Bump `aquasecurity/trivy-action` from 0.18.0 to 0.19.0 ([#4](https://github.com/northwood-labs/mod-aws-networking/issues/4)) ([@dependabot](https://github.com/dependabot))
 * [`942f030`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/942f0302bd6ac1c06cdcd3a8ea4961a2cb3f4974): **deps**: Bump `github/codeql-action` from 3.24.9 to 3.24.10 ([#7](https://github.com/northwood-labs/mod-aws-networking/issues/7)) ([@dependabot](https://github.com/dependabot))
 * [`ef2ef6e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ef2ef6ec0f579ca7ef3582b611dd9a128d4d871f): **deps**: Bump `actions/checkout` from 4.1.2 to 4.1.6 ([#27](https://github.com/northwood-labs/mod-aws-networking/issues/27)) ([@dependabot](https://github.com/dependabot))
+* [`bb2fad0`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bb2fad0838b45acf1490c0c7085df8aba6438c7b): **deps**: Bump `github/codeql-action` from 3.24.10 to 3.25.5 ([#26](https://github.com/northwood-labs/mod-aws-networking/issues/26)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
