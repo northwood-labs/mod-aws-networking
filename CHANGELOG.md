@@ -21,6 +21,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`942f030`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/942f0302bd6ac1c06cdcd3a8ea4961a2cb3f4974): **deps**: Bump `github/codeql-action` from 3.24.9 to 3.24.10 ([#7](https://github.com/northwood-labs/mod-aws-networking/issues/7)) ([@dependabot](https://github.com/dependabot))
 * [`ef2ef6e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ef2ef6ec0f579ca7ef3582b611dd9a128d4d871f): **deps**: Bump `actions/checkout` from 4.1.2 to 4.1.6 ([#27](https://github.com/northwood-labs/mod-aws-networking/issues/27)) ([@dependabot](https://github.com/dependabot))
 * [`bb2fad0`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bb2fad0838b45acf1490c0c7085df8aba6438c7b): **deps**: Bump `github/codeql-action` from 3.24.10 to 3.25.5 ([#26](https://github.com/northwood-labs/mod-aws-networking/issues/26)) ([@dependabot](https://github.com/dependabot))
+* [`2d4e44d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2d4e44d10727b0fcdc07dc51cfbb7c55a81cc9ee): **deps**: Bump `google/osv-scanner` from 1.7.1 to 1.7.3 ([#24](https://github.com/northwood-labs/mod-aws-networking/issues/24)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
