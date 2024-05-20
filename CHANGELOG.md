@@ -24,6 +24,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`2d4e44d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2d4e44d10727b0fcdc07dc51cfbb7c55a81cc9ee): **deps**: Bump `google/osv-scanner` from 1.7.1 to 1.7.3 ([#24](https://github.com/northwood-labs/mod-aws-networking/issues/24)) ([@dependabot](https://github.com/dependabot))
 * [`322fd29`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/322fd29990140e5734cd5201a03a5cd83d8d72cc): **deps**: Bump `the` go_modules group with 2 updates ([#21](https://github.com/northwood-labs/mod-aws-networking/issues/21)) ([@dependabot](https://github.com/dependabot))
 * [`60fb1fe`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/60fb1fe262ebf4eec508b1e399f2dbda53a9d270): **deps**: Bump `github.com/gruntwork-io/terratest` ([#18](https://github.com/northwood-labs/mod-aws-networking/issues/18)) ([@dependabot](https://github.com/dependabot))
+* [`3aacd71`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3aacd71f23986249c423f22cc58f901521e3491a): **deps**: Bump `actions/upload-artifact` from 4.3.1 to 4.3.3 ([#15](https://github.com/northwood-labs/mod-aws-networking/issues/15)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
