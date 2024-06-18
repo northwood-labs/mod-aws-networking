@@ -52,4 +52,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 
 * [`a2f5a7c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a2f5a7cf10ab6c684ea640baa8d27b457373e760): Harden GitHub Actions ([#2](https://github.com/northwood-labs/mod-aws-networking/issues/2)) ([@step-security-bot](https://github.com/step-security-bot))
 
-<p>Generated on 2024-05-20.</p>
+<p>Generated on 2024-06-18.</p>
