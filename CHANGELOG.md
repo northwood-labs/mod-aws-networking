@@ -35,6 +35,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`a3264a4`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a3264a4ea499a3566834ee37d5df9d3ae1135f2d): Allow Trivy scan to contact pkg-containers.githubusercontent.com. ([@skyzyx](https://github.com/skyzyx))
 * [`5ac2f2c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/5ac2f2cbbd2375464d2d87bda266bcb5e112b393): Update hardening for Markdownlint and Terraform-Docs. ([@skyzyx](https://github.com/skyzyx))
 * [`737f0ec`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/737f0ec6fa0520fcc6a6c8c068c701ab8345710b): Add Trivy license scan. ([@skyzyx](https://github.com/skyzyx))
+* [`a0634a0`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a0634a08b119ec1671177af73614c702f541d10c): Add some automated workflows. ([@skyzyx](https://github.com/skyzyx))
 
 ### :tractor: Refactor
 
@@ -52,4 +53,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 
 * [`a2f5a7c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a2f5a7cf10ab6c684ea640baa8d27b457373e760): Harden GitHub Actions ([#2](https://github.com/northwood-labs/mod-aws-networking/issues/2)) ([@step-security-bot](https://github.com/step-security-bot))
 
-<p>Generated on 2024-06-18.</p>
+<p>Generated on 2024-11-11.</p>
