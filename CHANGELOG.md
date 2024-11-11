@@ -30,6 +30,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`4923d2f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4923d2f31c19d7dabd6591d981f939ffff99455a): **deps**: Bump `github.com/gruntwork-io/terratest` ([#69](https://github.com/northwood-labs/mod-aws-networking/issues/69)) ([@dependabot](https://github.com/dependabot))
 * [`0c5bad4`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0c5bad4e2a6806e76b1af0fcd576d34b7f4b13d3): **deps**: Bump `aquasecurity/trivy-action` from 0.19.0 to 0.28.0 ([#71](https://github.com/northwood-labs/mod-aws-networking/issues/71)) ([@dependabot](https://github.com/dependabot))
 * [`3f2a344`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3f2a3444a17d3e0104c98638a5182f72a25aa203): **deps**: Bump `step-security/harden-runner` from 2.7.0 to 2.10.1 ([#65](https://github.com/northwood-labs/mod-aws-networking/issues/65)) ([@dependabot](https://github.com/dependabot))
+* [`4b4bd67`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4b4bd67f10f5d092c765bb60a0ed6940b8f7f8cc): **deps**: Bump `actions/dependency-review-action` from 4.2.5 to 4.4.0 ([#70](https://github.com/northwood-labs/mod-aws-networking/issues/70)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
