@@ -25,6 +25,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`322fd29`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/322fd29990140e5734cd5201a03a5cd83d8d72cc): **deps**: Bump `the` go_modules group with 2 updates ([#21](https://github.com/northwood-labs/mod-aws-networking/issues/21)) ([@dependabot](https://github.com/dependabot))
 * [`60fb1fe`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/60fb1fe262ebf4eec508b1e399f2dbda53a9d270): **deps**: Bump `github.com/gruntwork-io/terratest` ([#18](https://github.com/northwood-labs/mod-aws-networking/issues/18)) ([@dependabot](https://github.com/dependabot))
 * [`3aacd71`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3aacd71f23986249c423f22cc58f901521e3491a): **deps**: Bump `actions/upload-artifact` from 4.3.1 to 4.3.3 ([#15](https://github.com/northwood-labs/mod-aws-networking/issues/15)) ([@dependabot](https://github.com/dependabot))
+* [`f772087`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f772087c66d82e8ebc8928328322828f5b6b484c): **deps**: Bump `trufflesecurity/trufflehog` from 3.73.0 to 3.83.6 ([#68](https://github.com/northwood-labs/mod-aws-networking/issues/68)) ([@dependabot](https://github.com/dependabot))
+* [`3d8b850`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3d8b850fa0606c856dee80b993fd3862d8cec6f9): **deps**: Bump `hashicorp/setup-terraform` from 3.0.0 to 3.1.2 ([#60](https://github.com/northwood-labs/mod-aws-networking/issues/60)) ([@dependabot](https://github.com/dependabot))
+* [`4923d2f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4923d2f31c19d7dabd6591d981f939ffff99455a): **deps**: Bump `github.com/gruntwork-io/terratest` ([#69](https://github.com/northwood-labs/mod-aws-networking/issues/69)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
@@ -36,6 +39,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`5ac2f2c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/5ac2f2cbbd2375464d2d87bda266bcb5e112b393): Update hardening for Markdownlint and Terraform-Docs. ([@skyzyx](https://github.com/skyzyx))
 * [`737f0ec`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/737f0ec6fa0520fcc6a6c8c068c701ab8345710b): Add Trivy license scan. ([@skyzyx](https://github.com/skyzyx))
 * [`a0634a0`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a0634a08b119ec1671177af73614c702f541d10c): Add some automated workflows. ([@skyzyx](https://github.com/skyzyx))
+* [`c3d3406`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c3d3406349aaba32ea9e61458c596d48db727a93): Add some automated workflows. ([@skyzyx](https://github.com/skyzyx))
 
 ### :tractor: Refactor
 
