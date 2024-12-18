@@ -5,7 +5,7 @@ go 1.21
 toolchain go1.22.1
 
 require (
-	github.com/gruntwork-io/terratest v0.48.0
+	github.com/gruntwork-io/terratest v0.48.1
 	github.com/hairyhenderson/go-which v0.2.0
 	github.com/stretchr/testify v1.10.0
 )
