@@ -21,7 +21,7 @@ permissions: read-all
 
 jobs:
   osv-scan:
-    uses: google/osv-scanner/.github/workflows/osv-scanner-reusable.yml@v1.9.2
+    uses: google/osv-scanner/.github/workflows/osv-scanner-reusable.yml@v2.0.1
     permissions:
       contents: read
       security-events: write
