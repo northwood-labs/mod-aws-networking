@@ -33,6 +33,9 @@ jobs:
           - "1.7"
           - "1.8"
           - "1.9"
+          - "1.10"
+          - "1.11"
+          - "1.12"
 
     steps:
       - name: Harden Runner
@@ -51,6 +54,7 @@ jobs:
             proxy.golang.org:443
             registry.terraform.io:443
             releases.hashicorp.com:443
+            release-assets.githubusercontent.com:443
             storage.googleapis.com:443
             sts.us-east-2.amazonaws.com:443
 
@@ -90,6 +94,8 @@ jobs:
           - "1.6"
           - "1.7"
           - "1.8"
+          - "1.9"
+          - "1.10"
 
     steps:
       - name: Harden Runner
@@ -108,6 +114,7 @@ jobs:
             proxy.golang.org:443
             registry.opentofu.org:443
             releases.hashicorp.com:443
+            release-assets.githubusercontent.com:443
             storage.googleapis.com:443
             sts.us-east-2.amazonaws.com:443
 
