@@ -155,6 +155,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`c4bfe06`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c4bfe06ff88148b6421c77c7e0e6d3a63e3ff2bd): **deps**: Bump `github.com/gruntwork-io/terratest` ([#226](https://github.com/northwood-labs/mod-aws-networking/issues/226)) ([@dependabot](https://github.com/dependabot))
 * [`f5c879b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f5c879b9793fe0e6552cdbfc50a77e85e7bc7122): **deps**: Bump `actions/setup-node` from 4.4.0 to 6.0.0 ([#221](https://github.com/northwood-labs/mod-aws-networking/issues/221)) ([@dependabot](https://github.com/dependabot))
 * [`4e591ba`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4e591baf712cbd4bde13bfb5b0b8d1b4c3449ec7): **deps**: Bump `actions/upload-artifact` from 4.6.2 to 5.0.0 ([#225](https://github.com/northwood-labs/mod-aws-networking/issues/225)) ([@dependabot](https://github.com/dependabot))
+* [`4a1dcf7`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4a1dcf7f12e67a5c6c54fd9291e9ef5271fb73bf): **deps**: Bump `google/osv-scanner` from 2.2.3 to 2.2.4 ([#227](https://github.com/northwood-labs/mod-aws-networking/issues/227)) ([@dependabot](https://github.com/dependabot))
+* [`19bb2f3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/19bb2f38d322a562156b66e1c576cc601898d585): **deps**: Bump `trufflesecurity/trufflehog` from 3.90.11 to 3.90.12 ([#228](https://github.com/northwood-labs/mod-aws-networking/issues/228)) ([@dependabot](https://github.com/dependabot))
+* [`aa3ec72`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/aa3ec722467e8618a7dc92f8bdb632fbf579d87d): **deps**: Bump `github/codeql-action` from 4.30.9 to 4.31.2 ([#229](https://github.com/northwood-labs/mod-aws-networking/issues/229)) ([@dependabot](https://github.com/dependabot))
+* [`bc5a3a1`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bc5a3a124df49cdd9135d4ce463c8fab213ad1d3): **deps**: Bump `trufflesecurity/trufflehog` from 3.90.12 to 3.90.13 ([#230](https://github.com/northwood-labs/mod-aws-networking/issues/230)) ([@dependabot](https://github.com/dependabot))
+* [`ba57385`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ba573856ae7f6ef065dee0e2a1b68e9ea33e6225): **deps**: Bump `github.com/gruntwork-io/terratest` ([#233](https://github.com/northwood-labs/mod-aws-networking/issues/233)) ([@dependabot](https://github.com/dependabot))
+* [`63185d3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/63185d30ff6fad9c930a9bbc25bf530e6686b6a8): **deps**: Bump `github.com/gruntwork-io/terratest` ([#234](https://github.com/northwood-labs/mod-aws-networking/issues/234)) ([@dependabot](https://github.com/dependabot))
+* [`e8496dc`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e8496dc30cb9beb16a7fd2f65e1bbd992e2b0eae): **deps**: Bump `github.com/gruntwork-io/terratest` ([#235](https://github.com/northwood-labs/mod-aws-networking/issues/235)) ([@dependabot](https://github.com/dependabot))
+* [`351152f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/351152fd8abd6b4f15cfa162ef450736da07d952): **deps**: Bump `github.com/gruntwork-io/terratest` ([#236](https://github.com/northwood-labs/mod-aws-networking/issues/236)) ([@dependabot](https://github.com/dependabot))
+* [`9b00afe`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9b00afe2ceee8537043b4aee8c854a22f90a0256): **deps**: Bump `golangci/golangci-lint-action` from 8.0.0 to 9.0.0 ([#232](https://github.com/northwood-labs/mod-aws-networking/issues/232)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
@@ -184,4 +193,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 
 * [`a2f5a7c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a2f5a7cf10ab6c684ea640baa8d27b457373e760): Harden GitHub Actions ([#2](https://github.com/northwood-labs/mod-aws-networking/issues/2)) ([@step-security-bot](https://github.com/step-security-bot))
 
-<p>Generated on 2025-11-03.</p>
+<p>Generated on 2026-04-25.</p>
