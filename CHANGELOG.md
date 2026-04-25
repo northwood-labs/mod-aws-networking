@@ -164,6 +164,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`e8496dc`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e8496dc30cb9beb16a7fd2f65e1bbd992e2b0eae): **deps**: Bump `github.com/gruntwork-io/terratest` ([#235](https://github.com/northwood-labs/mod-aws-networking/issues/235)) ([@dependabot](https://github.com/dependabot))
 * [`351152f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/351152fd8abd6b4f15cfa162ef450736da07d952): **deps**: Bump `github.com/gruntwork-io/terratest` ([#236](https://github.com/northwood-labs/mod-aws-networking/issues/236)) ([@dependabot](https://github.com/dependabot))
 * [`9b00afe`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9b00afe2ceee8537043b4aee8c854a22f90a0256): **deps**: Bump `golangci/golangci-lint-action` from 8.0.0 to 9.0.0 ([#232](https://github.com/northwood-labs/mod-aws-networking/issues/232)) ([@dependabot](https://github.com/dependabot))
+* [`0b0360f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0b0360f558b1936841f1b6f7b19fe4137c746125): **deps**: Bump `step-security/harden-runner` from 2.13.1 to 2.13.2 ([#231](https://github.com/northwood-labs/mod-aws-networking/issues/231)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
