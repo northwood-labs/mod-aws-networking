@@ -26,7 +26,7 @@ jobs:
     name: Scan for secrets
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+        uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # v2.13.2
         with:
           disable-sudo: true
           egress-policy: block
@@ -43,7 +43,7 @@ jobs:
           fetch-depth: 0
 
       - name: Check secrets with TruffleHog OSS
-        uses: trufflesecurity/trufflehog@0f58ae7c5036094a1e3e750d18772af92821b503 # v3.90.5
+        uses: trufflesecurity/trufflehog@f15cb8b37b9b70056bc82a8eb7151f75fad27a71 # v3.90.13
         with:
           path: ./
           head: HEAD

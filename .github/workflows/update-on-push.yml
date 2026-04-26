@@ -24,7 +24,7 @@ jobs:
       contents: write
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+        uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # v2.13.2
         with:
           disable-sudo: true
           egress-policy: block
@@ -43,7 +43,7 @@ jobs:
           fetch-depth: 0
 
       - name: Generate Changelog
-        uses: orhun/git-cliff-action@98c93442bb05a455a77bee982867857ae748eeea # v4.5.1
+        uses: orhun/git-cliff-action@d77b37db2e3f7398432d34b72a12aa3e2ba87e51 # v4.6.0
         with:
           config: cliff.toml
           args: --verbose

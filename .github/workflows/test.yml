@@ -39,7 +39,7 @@ jobs:
 
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+        uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # v2.13.2
         with:
           disable-sudo: true
           egress-policy: block # audit
@@ -64,7 +64,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install Go
-        uses: actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5 # v5.5.0
+        uses: actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00 # v6.0.0
         with:
           go-version: ">= 1.22.1"
           cache: true
@@ -99,7 +99,7 @@ jobs:
 
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+        uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # v2.13.2
         with:
           disable-sudo: true
           egress-policy: block # audit
@@ -124,7 +124,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install Go
-        uses: actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5 # v5.5.0
+        uses: actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00 # v6.0.0
         with:
           go-version: ">= 1.22.1"
           cache: true
