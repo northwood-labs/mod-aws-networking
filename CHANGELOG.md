@@ -165,6 +165,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`351152f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/351152fd8abd6b4f15cfa162ef450736da07d952): **deps**: Bump `github.com/gruntwork-io/terratest` ([#236](https://github.com/northwood-labs/mod-aws-networking/issues/236)) ([@dependabot](https://github.com/dependabot))
 * [`9b00afe`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9b00afe2ceee8537043b4aee8c854a22f90a0256): **deps**: Bump `golangci/golangci-lint-action` from 8.0.0 to 9.0.0 ([#232](https://github.com/northwood-labs/mod-aws-networking/issues/232)) ([@dependabot](https://github.com/dependabot))
 * [`0b0360f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0b0360f558b1936841f1b6f7b19fe4137c746125): **deps**: Bump `step-security/harden-runner` from 2.13.1 to 2.13.2 ([#231](https://github.com/northwood-labs/mod-aws-networking/issues/231)) ([@dependabot](https://github.com/dependabot))
+* [`a2337bf`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a2337bf2052bd587565428c629bdcd3c09ce9071): **deps**: Bump `actions/setup-go` from 5.5.0 to 6.0.0 ([#204](https://github.com/northwood-labs/mod-aws-networking/issues/204)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
@@ -194,4 +195,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 
 * [`a2f5a7c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a2f5a7cf10ab6c684ea640baa8d27b457373e760): Harden GitHub Actions ([#2](https://github.com/northwood-labs/mod-aws-networking/issues/2)) ([@step-security-bot](https://github.com/step-security-bot))
 
-<p>Generated on 2026-04-25.</p>
+<p>Generated on 2026-04-26.</p>
