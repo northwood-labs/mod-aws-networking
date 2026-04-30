@@ -167,6 +167,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`0b0360f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0b0360f558b1936841f1b6f7b19fe4137c746125): **deps**: Bump `step-security/harden-runner` from 2.13.1 to 2.13.2 ([#231](https://github.com/northwood-labs/mod-aws-networking/issues/231)) ([@dependabot](https://github.com/dependabot))
 * [`a2337bf`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a2337bf2052bd587565428c629bdcd3c09ce9071): **deps**: Bump `actions/setup-go` from 5.5.0 to 6.0.0 ([#204](https://github.com/northwood-labs/mod-aws-networking/issues/204)) ([@dependabot](https://github.com/dependabot))
 * [`9ae3312`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9ae33125fc89deba41bd03ba72be356f2d78c496): **deps**: Bump `actions/checkout` from 4.2.2 to 5.0.0 ([#188](https://github.com/northwood-labs/mod-aws-networking/issues/188)) ([@dependabot](https://github.com/dependabot))
+* [`6f238cc`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6f238ccb52094674e0a9a1b682194a3ae15d2934): **deps**: Bump `aquasecurity/trivy-action` from 0.33.1 to 0.36.0 ([#237](https://github.com/northwood-labs/mod-aws-networking/issues/237)) ([@dependabot](https://github.com/dependabot))
+* [`3608db7`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3608db7f0caab4e27c46bc7ccc58d4c6a1197e3a): **deps**: Bump ``google/osv-scanner/.github/workflows/osv-scanner-reusable.yml`` ([#238](https://github.com/northwood-labs/mod-aws-networking/issues/238)) ([@dependabot](https://github.com/dependabot))
+* [`17920fd`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/17920fdacac0cfadb408cead394c99df415d8def): **deps**: Bump `trufflesecurity/trufflehog` from 3.90.13 to 3.95.2 ([#239](https://github.com/northwood-labs/mod-aws-networking/issues/239)) ([@dependabot](https://github.com/dependabot))
+* [`93a543d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/93a543dcce98ffd3378ee7f33da9e692eee0d99f): **deps**: Bump `golangci/golangci-lint-action` from 9.0.0 to 9.2.0 ([#240](https://github.com/northwood-labs/mod-aws-networking/issues/240)) ([@dependabot](https://github.com/dependabot))
+* [`d2035b6`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d2035b647fa809837c4fd768844fdb2163115860): **deps**: Bump `actions/dependency-review-action` from 4.8.1 to 4.9.0 ([#242](https://github.com/northwood-labs/mod-aws-networking/issues/242)) ([@dependabot](https://github.com/dependabot))
+* [`1f98a0a`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1f98a0a9f6df32d16072d4390d231dfb27a68c2e): **deps**: Bump `actions/setup-node` from 6.0.0 to 6.4.0 ([#246](https://github.com/northwood-labs/mod-aws-networking/issues/246)) ([@dependabot](https://github.com/dependabot))
+* [`d0fd63e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d0fd63e3d12c5969a9df5f918fb59f5bb109af17): **deps**: Bump `orhun/git-cliff-action` from 4.6.0 to 4.8.0 ([#247](https://github.com/northwood-labs/mod-aws-networking/issues/247)) ([@dependabot](https://github.com/dependabot))
+* [`0c8e2cc`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0c8e2cc215c1a33796990c4f34c6e8e6898daa33): **deps**: Bump `github/codeql-action` from 4.31.2 to 4.35.2 ([#248](https://github.com/northwood-labs/mod-aws-networking/issues/248)) ([@dependabot](https://github.com/dependabot))
+* [`114e570`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/114e570c48e01632c6b6943928a84c1a56c1b813): **deps**: Bump `hashicorp/setup-terraform` from 3.1.2 to 4.0.0 ([#249](https://github.com/northwood-labs/mod-aws-networking/issues/249)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
@@ -196,4 +205,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 
 * [`a2f5a7c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a2f5a7cf10ab6c684ea640baa8d27b457373e760): Harden GitHub Actions ([#2](https://github.com/northwood-labs/mod-aws-networking/issues/2)) ([@step-security-bot](https://github.com/step-security-bot))
 
-<p>Generated on 2026-04-26.</p>
+<p>Generated on 2026-04-30.</p>
