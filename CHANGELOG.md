@@ -176,6 +176,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`d0fd63e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d0fd63e3d12c5969a9df5f918fb59f5bb109af17): **deps**: Bump `orhun/git-cliff-action` from 4.6.0 to 4.8.0 ([#247](https://github.com/northwood-labs/mod-aws-networking/issues/247)) ([@dependabot](https://github.com/dependabot))
 * [`0c8e2cc`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0c8e2cc215c1a33796990c4f34c6e8e6898daa33): **deps**: Bump `github/codeql-action` from 4.31.2 to 4.35.2 ([#248](https://github.com/northwood-labs/mod-aws-networking/issues/248)) ([@dependabot](https://github.com/dependabot))
 * [`114e570`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/114e570c48e01632c6b6943928a84c1a56c1b813): **deps**: Bump `hashicorp/setup-terraform` from 3.1.2 to 4.0.0 ([#249](https://github.com/northwood-labs/mod-aws-networking/issues/249)) ([@dependabot](https://github.com/dependabot))
+* [`7072c7c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/7072c7c420574b18822f1148d10ce422a4894785): **deps**: Bump `actions/setup-go` from 6.0.0 to 6.4.0 ([#250](https://github.com/northwood-labs/mod-aws-networking/issues/250)) ([@dependabot](https://github.com/dependabot))
+* [`a61e5dd`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a61e5dda480ca0ab4bd9a941a741daaef5390e0b): **deps**: Bump `step-security/harden-runner` from 2.13.2 to 2.19.1 ([#252](https://github.com/northwood-labs/mod-aws-networking/issues/252)) ([@dependabot](https://github.com/dependabot))
+* [`0ca6694`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0ca6694f74d3cf34fe6e9325ae841889f6f8b73a): **deps**: Bump ``google/osv-scanner/.github/workflows/osv-scanner-reusable.yml`` ([#253](https://github.com/northwood-labs/mod-aws-networking/issues/253)) ([@dependabot](https://github.com/dependabot))
+* [`255c743`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/255c743f71c29a1f4dcc5f3230142cd2549f973e): **deps**: Bump `github/codeql-action` from 4.35.2 to 4.35.3 ([#254](https://github.com/northwood-labs/mod-aws-networking/issues/254)) ([@dependabot](https://github.com/dependabot))
+* [`9b47715`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9b47715179ce6ff1160644fe5aecf9c718c978ef): **deps**: Bump ``google/osv-scanner/.github/workflows/osv-scanner-reusable.yml`` ([#255](https://github.com/northwood-labs/mod-aws-networking/issues/255)) ([@dependabot](https://github.com/dependabot))
+* [`1ddce5b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1ddce5bddf49a1a2ac0831f22cd6ea88b6152a77): **deps**: Bump `github/codeql-action` from 4.35.3 to 4.35.4 ([#256](https://github.com/northwood-labs/mod-aws-networking/issues/256)) ([@dependabot](https://github.com/dependabot))
+* [`954cc3d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/954cc3d422e3d233cec51bbb028964737b81bfc6): **deps**: Bump ``google/osv-scanner/.github/workflows/osv-scanner-reusable.yml`` ([#257](https://github.com/northwood-labs/mod-aws-networking/issues/257)) ([@dependabot](https://github.com/dependabot))
+* [`f8791bb`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f8791bbd95d62b1418aadf0c2bea064d22966794): **deps**: Bump `dependabot/fetch-metadata` from 2.4.0 to 3.1.0 ([#251](https://github.com/northwood-labs/mod-aws-networking/issues/251)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
@@ -205,4 +213,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 
 * [`a2f5a7c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a2f5a7cf10ab6c684ea640baa8d27b457373e760): Harden GitHub Actions ([#2](https://github.com/northwood-labs/mod-aws-networking/issues/2)) ([@step-security-bot](https://github.com/step-security-bot))
 
-<p>Generated on 2026-04-30.</p>
+<p>Generated on 2026-05-11.</p>
