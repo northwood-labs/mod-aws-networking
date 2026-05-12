@@ -4,7 +4,7 @@ go 1.26
 
 require (
 	github.com/gruntwork-io/terratest v0.56.0
-	github.com/hairyhenderson/go-which v0.2.2
+	github.com/hairyhenderson/go-which v0.2.3
 	github.com/stretchr/testify v1.11.1
 )
 
