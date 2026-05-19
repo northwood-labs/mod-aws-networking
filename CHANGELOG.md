@@ -192,6 +192,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`2729611`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/272961183ca95b122bff5f12a15020043efec66c): **deps**: Bump `github/codeql-action` from 4.35.4 to 4.35.5 ([#265](https://github.com/northwood-labs/mod-aws-networking/issues/265)) ([@dependabot](https://github.com/dependabot))
 * [`d806f8b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d806f8b01202be676b36f664cc5a51a4981dd310): **deps**: Bump `github.com/gruntwork-io/terratest` from 0.56.0 to 1.0.0 ([#260](https://github.com/northwood-labs/mod-aws-networking/issues/260)) ([@dependabot](https://github.com/dependabot))
 * [`f4c86a1`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f4c86a1e8976e0b43254a700e0508b752c4dc771): **deps**: Bump `actions/dependency-review-action` from 4.9.0 to 5.0.0 ([#259](https://github.com/northwood-labs/mod-aws-networking/issues/259)) ([@dependabot](https://github.com/dependabot))
+* [`6f87a1c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6f87a1c39a3741e19a4441d7cf4add297cffcf94): **deps**: Bump `opentofu/setup-opentofu` from 1.0.5 to 2.0.0 ([#245](https://github.com/northwood-labs/mod-aws-networking/issues/245)) ([@dependabot](https://github.com/dependabot))
+* [`c7abd7e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c7abd7e68fb1213fd5f3f752c211e96fa27d4dc3): **deps**: Bump `actions/upload-artifact` from 5.0.0 to 7.0.1 ([#243](https://github.com/northwood-labs/mod-aws-networking/issues/243)) ([@dependabot](https://github.com/dependabot))
+* [`1c71225`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1c712250f2c21ea97eedaa8111e289c3454cbb7d): **deps**: Bump `actions/checkout` from 5.0.0 to 6.0.2 ([#241](https://github.com/northwood-labs/mod-aws-networking/issues/241)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
