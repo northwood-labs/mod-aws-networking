@@ -195,6 +195,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`6f87a1c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6f87a1c39a3741e19a4441d7cf4add297cffcf94): **deps**: Bump `opentofu/setup-opentofu` from 1.0.5 to 2.0.0 ([#245](https://github.com/northwood-labs/mod-aws-networking/issues/245)) ([@dependabot](https://github.com/dependabot))
 * [`c7abd7e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c7abd7e68fb1213fd5f3f752c211e96fa27d4dc3): **deps**: Bump `actions/upload-artifact` from 5.0.0 to 7.0.1 ([#243](https://github.com/northwood-labs/mod-aws-networking/issues/243)) ([@dependabot](https://github.com/dependabot))
 * [`1c71225`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1c712250f2c21ea97eedaa8111e289c3454cbb7d): **deps**: Bump `actions/checkout` from 5.0.0 to 6.0.2 ([#241](https://github.com/northwood-labs/mod-aws-networking/issues/241)) ([@dependabot](https://github.com/dependabot))
+* [`c66e58e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c66e58e7604b8171a25a4675976530dd28dce301): **deps**: Bump `opentofu/setup-opentofu` from 2.0.0 to 2.0.1 ([#266](https://github.com/northwood-labs/mod-aws-networking/issues/266)) ([@dependabot](https://github.com/dependabot))
+* [`4e67160`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4e671608cd9de8ec0743abf91435b35387f06181): **deps**: Bump `step-security/harden-runner` from 2.19.3 to 2.19.4 ([#267](https://github.com/northwood-labs/mod-aws-networking/issues/267)) ([@dependabot](https://github.com/dependabot))
+* [`ee767f3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ee767f34f6d72cc1071bf380f2fdd74fca26b98a): **deps**: Bump `golangci/golangci-lint-action` from 9.2.0 to 9.2.1 ([#268](https://github.com/northwood-labs/mod-aws-networking/issues/268)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
@@ -224,4 +227,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 
 * [`a2f5a7c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a2f5a7cf10ab6c684ea640baa8d27b457373e760): Harden GitHub Actions ([#2](https://github.com/northwood-labs/mod-aws-networking/issues/2)) ([@step-security-bot](https://github.com/step-security-bot))
 
-<p>Generated on 2026-05-19.</p>
+<p>Generated on 2026-05-22.</p>
